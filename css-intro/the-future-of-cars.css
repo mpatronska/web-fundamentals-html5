@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*•	<body>*/
+/*o	Text font: 'Lato', sans-serif;*/
+/*o	Text size:  14px;*/
+/*o	Text color: #333333;*/
+/*o	Margin: 0px;*/
+/*o	Padding: 0px;*/
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*o	Background: url("…<locate the background image>…") no-repeat center;*/
+/*o	Background Size: cover;*/
+/*o	Height: 700px;*/
+
+header{
+    background: url("images/car-future.jpg");
+    background-size: cover;
+    height: 700px;
+}
+
+/*o	Text size: 80px;*/
+/*o	Font-family: 'Lato', sans-serif;*/
+/*o	Margin: 0;*/
+/*o	Padding: 80px 0 0 20px;*/
+/*o	Text Weight: 900;*/
+/*o	Text Color: #b38575;*/
+/*o	Display the text in UPPERCASE*/
+
+h1{
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 80px 0 0 20px;
+    font-weight: 900;
+    color: #b38575;
+    text-transform: uppercase;
+}
+
+/*•	<nav>*/
+/*o	Margin: 20px;*/
+/*o	Float: right;*/
+
+nav{
+    margin: 20px;
+    float: right;
+}
+
+/*o	Margin: 0;*/
+/*o	Padding: 7px;*/
+/*o	Heigth: 20px;*/
+/*o	Line Heigth: 20px;*/
+
+
+nav ul{
+    margin: 0;
+    padding: 7px;
+    height: 20px;
+    line-height: 20px;
+}
+
+/*o	Display as inline blocks*/
+
+nav ul li{
+    display: inline-block;
+}
+
+/*o	Make them UPPERCASE*/
+nav ul li a{
+    text-transform: uppercase;
+}
+
+/*o	Text Color: #333;*/
+/*o	Padding: 5px 7px 10px 7px;*/
+/*o	Text size: 1em;*/
+/*o	Font Weight: bold;*/
+/*o	Remove text undeline*/
+
+a, a:link, a:active, a:visited{
+    color: #333;
+    padding: 5px 7px 10px 7px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*o	Text Color: #b38575*/
+a:hover{
+    color: #b38575;
+}
+
+/*o	Padding Left: 25px;*/
+/*o	Padding Right: 25px;*/
+/*o	Align Text: Justify;*/
+
+
+section{
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+}
+
+section article{
+    margin-bottom: 20px;
+}
+
+/*o	Width: 350px;*/
+/*o	Height: 260px;*/
+/*o	Margin Right: 15px;*/
+/*o	Display the images on the left side (search in Google about “CSS floating”)*/
+
+section article img{
+    width: 350px;
+    height: 260px;
+    margin-right: 15px;
+    float: left;
+}
+
+/*o	Text Size: 18px;*/
+/*o	Text Color: #333333;*/
+/*o	Margin: 0px;*/
+/*o	Padding: 20px;*/
+
+section article p {
+    font-size: 18px;
+    color: #333;
+    margin: 0px;
+    padding: 20px;
+}
+
+/*o	Text Site: 32px;*/
+/*o	Text Color: #b38575;*/
+/*o	Text Style: bold;*/
+/*o	Make the text UPPERCASE*/
+/*o	Hint: use the pseudo-selector :first-of-type:first-letter*/
+
+section article p:first-of-type:first-letter{
+    font-size: 32px;
+    color: #b38575;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*o	Font Weight: 900;*/
+/*o	Text Color: #b38575*/
+/*o	Margin-Bottom: 20px;*/
+/*o	Make the text uppercase*/
+
+section article h2{
+    font-weight: 900;
+    color: #b38575;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.content article:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+footer{
+    background-color: #ccc;
+}
+
+/*o	Center the <span> content*/
+/*o	Display as block element*/
+/*o	Padding: 10px;*/
+/*o	Text Color: #333333;*/
+
+footer span{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: #333;
+}

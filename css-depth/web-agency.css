@@ -1,0 +1,107 @@
+body{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    background: #24437C;
+    margin: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a::first-letter{
+    text-transform: uppercase;
+}
+
+header nav img{
+    float: left;
+    padding-right: 200px;
+    padding-left: 20px;
+
+}
+
+body h1{
+    text-align: center;
+    color: white;
+}
+
+body h1::first-letter{
+    text-transform: uppercase;
+}
+
+.header-subtitle{
+    text-align: center;
+    color: #456B8C;
+}
+
+.header-subtitle::first-letter{
+    text-transform: uppercase;
+}
+
+.cta-btn a{
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    background: #3DC1EF;
+}
+
+#button-container{
+    text-align: center;
+
+
+}
+
+#button-container a{
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    background: #3DC1EF;
+
+}
+
+#button-container a:hover{
+    cursor: pointer;
+}
+
+#button-container a::first-letter{
+    text-transform: uppercase;
+}
+
+.header-services li{
+    display: inline-block;
+    width: 30%;
+}
+
+.service-title{
+    color: white;
+    text-align: center;
+}
+
+.service-intro{
+    color: white;
+}
+
+.service-link{
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding-top: 20px;
+
+}
+
+
+.service{
+    padding: 10px;
+}
+
+.service:hover{
+    background: #3DC1EF;
+    cursor: pointer;
+}

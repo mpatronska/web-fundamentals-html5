@@ -1,0 +1,58 @@
+body{
+    background: url("images/food-image-bg.png");
+    background-size: cover;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+}
+
+main h1{
+    font-size: 70px;
+    float: right;
+    text-transform: uppercase;
+    color: white;
+    padding-right: 150px;
+}
+
+.prep-steps{
+    float: right;
+    color: white;
+    padding-right: 150px;
+
+}
+
+.prep-steps li{
+    list-style: none;
+    padding-bottom: 30px;
+    width: 52%;
+    float: right;
+}
+
+.recipies-info p{
+    display: inline-block;
+}
+
+.recipies-info p{
+    color: white;
+    padding: 15px;
+}
+
+.recipies-info p span{
+    color: #b5c640;
+}
+
+.btn-primary{
+    margin-left: 210px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 10px;
+
+}
+
+.btn-primary:hover{
+    background: #b5c640;
+    border: none;
+    cursor: pointer;
+}
